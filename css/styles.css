@@ -110,7 +110,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  transition: color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -129,7 +129,7 @@ p {
   left: 0;
   z-index: 1;
   border-radius: 2px;
-  transition: opacity 250ms linear;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -171,7 +171,7 @@ p {
   display: flex;
   align-items: center;
   text-decoration: none;
-  transition: color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__icon {
@@ -263,7 +263,7 @@ p {
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
-  transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active {
@@ -421,7 +421,7 @@ p {
   border: none;
   align-items: center;
   justify-content: center;
-  transition: fill 250ms linear, background-color 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .specialist__social:hover,
@@ -450,7 +450,7 @@ p {
   fill: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: fill 250ms linear, border-color 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__card:hover,
@@ -481,7 +481,8 @@ p {
 .filter__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: box-shadow 250ms linear;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cubic-bezier (0.4, 0, 0.2, 1);
 }
 
 .filter__card img {
@@ -570,7 +571,7 @@ p {
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
-  transition: color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__address:hover,
@@ -605,7 +606,7 @@ p {
   border: none;
   justify-content: center;
   align-items: center;
-  transition: fill 0.25s linear, background-color 250ms linear;
+  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__icon:not(:last-child) {
