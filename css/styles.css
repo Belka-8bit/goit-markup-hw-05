@@ -421,7 +421,7 @@ p {
   border: none;
   align-items: center;
   justify-content: center;
-  transition: color 0.25s linear;
+  transition: fill 250ms linear;
 }
 
 .specialist__social:hover,
