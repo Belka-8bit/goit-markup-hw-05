@@ -530,6 +530,26 @@ p {
   line-height: 1.87;
 }
 
+.filter__backdrop {
+  position: relative;
+  display: flex;
+}
+
+.filter__content {
+  position: absolute;
+  color: var(--tittle-text-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+  opacity: 0;
+}
+
+.filter__content:hover {
+  opacity: 1;
+}
+
 /* Footer */
 
 .footer {
