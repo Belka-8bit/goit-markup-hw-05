@@ -668,6 +668,7 @@ p {
 
 .modal {
   position: absolute;
+  display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -683,9 +684,17 @@ p {
   display: flex;
   width: 30px;
   height: 30px;
+  right: 8px;
+  bottom: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--primary-background-color);
   align-items: center;
-  justify-content: center;
+  cursor: pointer;
+}
+
+.modal__button:focus,
+.modal__button:hover {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
