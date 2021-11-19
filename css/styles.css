@@ -680,7 +680,13 @@ p {
 }
 
 .modal__button {
+  width: 30px;
+  height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--primary-background-color);
+}
+
+.modal__icon {
+  fill: var(--primary-text-color);
 }
