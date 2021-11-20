@@ -685,6 +685,7 @@ p {
 .backdrop__hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .modal {
