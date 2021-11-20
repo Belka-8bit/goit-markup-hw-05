@@ -713,6 +713,8 @@ p {
   background-color: var(--primary-background-color);
   align-items: center;
   cursor: pointer;
+  transition: fill,
+    border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal__button:focus,
