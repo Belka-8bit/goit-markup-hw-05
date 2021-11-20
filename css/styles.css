@@ -536,8 +536,8 @@ p {
 
 .filter__content {
   position: absolute;
+  top: 0;
   left: 0;
-  bottom: 0;
   padding: 63px 24px;
   width: 100%;
   font-size: 18px;
@@ -561,11 +561,6 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* .filter__link:hover .filter__overlay,
-.filter__link:focus .filter__overlay {
-  opacity: 1;
-} */
 
 /* Footer */
 
