@@ -534,12 +534,18 @@ p {
   line-height: 1.87;
 }
 
+.filter__overlay::before {
+  position: relative;
+  content: "";
+}
+
 .filter__content {
   position: absolute;
+  height: 73%;
+  width: 100%;
   top: 0;
   left: 0;
   padding: 63px 24px;
-  width: 100%;
   font-size: 18px;
   line-height: 1.56;
   transform: translateY(100%);
