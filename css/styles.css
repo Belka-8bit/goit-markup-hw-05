@@ -711,7 +711,7 @@ p {
   align-items: center;
   cursor: pointer;
   transition: fill var(--transition-duration) var(--transition-timing-function),
-    transform 250ms ease-in-out;
+    transform var(--transition-duration) ease-in-out;
 }
 
 .modal__button:focus,
