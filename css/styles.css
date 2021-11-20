@@ -714,11 +714,13 @@ p {
   align-items: center;
   cursor: pointer;
   transition: fill,
-    border-color var(--transition-duration) var(--transition-timing-function);
+    border-color var(--transition-duration) var(--transition-timing-function),
+    transform 250ms ease-in-out;
 }
 
 .modal__button:focus,
 .modal__button:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+  transform: rotate(90deg);
 }
