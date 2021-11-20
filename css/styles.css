@@ -264,9 +264,8 @@ p {
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
-  transition: color,
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
+  transition: background-color,
+    var(--transition-duration) var(--transition-timing-function);
 }
 
 .active {
@@ -445,7 +444,7 @@ p {
   border: none;
   align-items: center;
   justify-content: center;
-  transition: fill,
+  transition: fill var(--transition-duration) var(--transition-timing-function),
     background-color var(--transition-duration)
       var(--transition-timing-function);
 }
@@ -554,7 +553,7 @@ p {
   color: var(--tittle-text-color);
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
-  transition: color,
+  transition: color var(--transition-duration) var(--transition-timing-function),
     background-color var(--transition-duration)
       var(--transition-timing-function);
 }
@@ -655,7 +654,7 @@ p {
   border: none;
   justify-content: center;
   align-items: center;
-  transition: fill,
+  transition: fill var(--transition-duration) var(--transition-timing-function),
     background-color var(--transition-duration)
       var(--transition-timing-function);
 }
@@ -711,8 +710,7 @@ p {
   background-color: var(--primary-background-color);
   align-items: center;
   cursor: pointer;
-  transition: fill,
-    border-color var(--transition-duration) var(--transition-timing-function),
+  transition: fill var(--transition-duration) var(--transition-timing-function),
     transform 250ms ease-in-out;
 }
 
