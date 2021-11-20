@@ -149,8 +149,6 @@ p {
 .nav__link:hover::after,
 .nav__link:focus::after {
   opacity: 1;
-  transition: opacity var(--transition-duration)
-    var(--transition-timing-function);
 }
 
 .address__list {
@@ -504,6 +502,8 @@ p {
   position: relative;
   display: block;
   text-decoration: none;
+  transition: box-shadow var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .filter__card img {
@@ -554,22 +554,20 @@ p {
   color: var(--tittle-text-color);
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
+  transition: color,
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
 }
 
 .filter__link:focus,
 .filter__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: box-shadow var(--transition-duration)
-    var(--transition-timing-function);
 }
 
 .filter__link:hover .filter__content,
 .filter__link:focus .filter__content {
   opacity: 1;
-  transition: color,
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
 }
 
 /* Footer */
