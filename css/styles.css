@@ -485,6 +485,7 @@ p {
 
 .filter__card {
   position: relative;
+  overflow: hidden;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -493,7 +494,6 @@ p {
 .filter__link {
   display: block;
   text-decoration: none;
-  overflow: hidden;
   transition: box-shadow var(--transition-duration)
     var(--transition-timing-function);
 }
@@ -534,14 +534,10 @@ p {
   line-height: 1.87;
 }
 
-.filter__overlay {
-  position: relative;
-}
-
 .filter__content {
   position: absolute;
-  top: 0;
   left: 0;
+  bottom: 0;
   padding: 63px 24px;
   width: 100%;
   font-size: 18px;
@@ -563,7 +559,7 @@ p {
 
 .filter__link:hover .filter__content {
   opacity: 1;
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 /* .filter__link:hover .filter__overlay,
