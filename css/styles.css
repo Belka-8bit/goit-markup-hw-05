@@ -149,6 +149,8 @@ p {
 .nav__link:hover::after,
 .nav__link:focus::after {
   opacity: 1;
+  transition: opacity var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .address__list {
@@ -476,15 +478,13 @@ p {
   fill: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .clients__card:hover,
 .clients__card:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-  transition: fill,
-    background-color var(--transition-duration)
-      var(--transition-timing-function);
 }
 
 /* Filter */
