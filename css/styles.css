@@ -485,7 +485,6 @@ p {
 
 .filter__card {
   position: relative;
-  overflow: hidden;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -555,13 +554,14 @@ p {
     var(--transition-timing-function);
 }
 
-.filter__card:hover,
+.filter__link:hover,
 .filter__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.filter__link:hover .filter__content {
+.filter__link:hover .filter__content,
+.filter__link:focus .filter__content {
   transform: translateY(0);
 }
 
