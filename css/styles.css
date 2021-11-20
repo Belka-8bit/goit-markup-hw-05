@@ -536,15 +536,16 @@ p {
 
 .filter__content {
   position: absolute;
-  width: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
+  color: var(--tittle-text-color);
   transform: translateY(100%);
   opacity: 0;
-  color: var(--tittle-text-color);
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform var(--transition-duration)
     var(--transition-timing-function);
@@ -556,9 +557,9 @@ p {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.filter__card:hover .filter__content {
-  opacity: 1;
+.filter__link:hover .filter__content {
   transform: translateY(0);
+  opacity: 1;
 }
 
 /* Footer */
