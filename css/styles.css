@@ -539,8 +539,7 @@ p {
 	transform: translateY(100%);
 	color: var(--tittle-text-color);
 	background-color: rgba(33, 150, 243, 0.9);
-	transition: transform var(--transition-duration) var(--transition-timing-function),
-		background-color var(--transition-duration) var(--transition-timing-function);
+	transition: transform var(--transition-duration) var(--transition-timing-function);
 }
 
 .filter__link:hover,
