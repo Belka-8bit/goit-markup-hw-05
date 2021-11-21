@@ -129,7 +129,8 @@ p {
 	position: absolute;
 	bottom: -1px;
 	border-radius: 2px;
-	transition: opacity var(--transition-duration) var(--transition-timing-function);
+	transition: opacity var(--transition-duration) var(--transition-timing-function),
+		background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .current::after {
@@ -248,7 +249,9 @@ p {
 	border-radius: 4px;
 	text-align: center;
 	cursor: pointer;
-	transition: background-color, var(--transition-duration) var(--transition-timing-function);
+	transition: color var(--transition-duration) var(--transition-timing-function),
+		background-color var(--transition-duration) var(--transition-timing-function),
+		box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
 .active {
@@ -454,7 +457,8 @@ p {
 	fill: var(--icon-color);
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
-	transition: fill var(--transition-duration) var(--transition-timing-function);
+	transition: fill var(--transition-duration) var(--transition-timing-function),
+		border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .clients__card:hover,
@@ -535,7 +539,8 @@ p {
 	transform: translateY(100%);
 	color: var(--tittle-text-color);
 	background-color: rgba(33, 150, 243, 0.9);
-	transition: transform var(--transition-duration) var(--transition-timing-function);
+	transition: transform var(--transition-duration) var(--transition-timing-function),
+		background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .filter__link:hover,
@@ -662,7 +667,6 @@ p {
 .backdrop__hidden {
 	opacity: 0;
 	pointer-events: none;
-	visibility: hidden;
 }
 
 .backdrop.backdrop__hidden .modal {
@@ -695,7 +699,8 @@ p {
 	align-items: center;
 	cursor: pointer;
 	transition: fill var(--transition-duration) var(--transition-timing-function),
-		transform var(--transition-duration) ease-in-out;
+		transform var(--transition-duration) ease-in-out,
+		border-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal__button:focus,
