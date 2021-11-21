@@ -1,0 +1,8 @@
+{
+	"prettier.arrowParens": "avoid",
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"prettier.printWidth": 120,
+	"prettier.proseWrap": "never",
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true
+}
