@@ -16,7 +16,7 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -72,7 +72,7 @@ p {
   color: var(--primary-text-color);
   padding: 24px 0;
   margin-right: 93px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -81,7 +81,7 @@ p {
 
 .header__logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -120,7 +120,7 @@ p {
 }
 
 .nav__link::after {
-  content: '';
+  content: "";
   display: block;
   opacity: 0;
   width: 100%;
@@ -129,12 +129,14 @@ p {
   position: absolute;
   bottom: -1px;
   border-radius: 2px;
-  transition: opacity var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration) var(--transition-timing-function);
+  transition: opacity var(--transition-duration)
+      var(--transition-timing-function),
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
 }
 
 .current::after {
-  content: '';
+  content: "";
   opacity: 1;
 }
 
@@ -186,7 +188,11 @@ p {
 
 .hero {
   background-color: var(--primary-section-color);
-  background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)),
+  background-image: linear-gradient(
+      to right,
+      var(--gradient-color),
+      var(--gradient-color)
+    ),
     url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -251,7 +257,8 @@ p {
   text-align: center;
   cursor: pointer;
   transition: color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration)
+      var(--transition-timing-function),
     box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
@@ -432,7 +439,8 @@ p {
   align-items: center;
   justify-content: center;
   transition: fill var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration) var(--transition-timing-function);
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
 }
 
 .specialist__social:hover,
@@ -487,7 +495,8 @@ p {
 .filter__link {
   display: block;
   text-decoration: none;
-  transition: box-shadow var(--transition-duration) var(--transition-timing-function);
+  transition: box-shadow var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .filter__card img {
@@ -543,7 +552,8 @@ p {
   transform: translateY(101%);
   color: var(--tittle-text-color);
   background-color: rgba(33, 150, 243, 0.9);
-  transition: transform var(--transition-duration) var(--transition-timing-function);
+  transition: transform var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .filter__link:hover,
@@ -571,7 +581,7 @@ p {
 
 .footer__inner {
   color: var(--tittle-text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   display: block;
   margin-bottom: 20px;
   font-size: 26px;
@@ -582,7 +592,7 @@ p {
 
 .footer__logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
   font-size: 26px;
   font-weight: 700;
@@ -643,7 +653,8 @@ p {
   justify-content: center;
   align-items: center;
   transition: fill var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration) var(--transition-timing-function);
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
 }
 
 .footer__icon:not(:last-child) {
@@ -665,7 +676,8 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity var(--transition-duration) var(--transition-timing-function);
+  transition: opacity var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .backdrop__hidden {
@@ -688,7 +700,8 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform var(--transition-duration) var(--transition-timing-function);
+  transition: transform var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .modal__button {
